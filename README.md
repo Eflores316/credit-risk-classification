@@ -16,9 +16,8 @@ The datat set is 77k+ long. It was split into training and testing sets. The tra
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
 Logistic Regression Model:
-•	Precision Score: 92% --> This means 92% of predicted positives were correct
-•	Recall Score: 95% --> this means that the model was 95% precise in measuring true positive values our of all positive predictions made.
-
+•	Precision Score: 92%. It means 92% of predicted positives were correct
+•	Recall Score: 95%. It means that the model was 95% precise in measuring true positive values of all predictions made.
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
