@@ -1,26 +1,28 @@
+# Module 12 Report Template
+Machine learning techniques used to identify/analyze potential positive customers using different types of loans and other factors from the data provided by the lending services company.
 ## Overview of the Analysis
-
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+Factors considered:
+•	the size of the loan
+•	its interest rate
+•	the borrower's income
+•	the debt to income ratio
+•	the number of accounts the borrower held
+•	derogatory marks against the borrower
+•	the total debt
+The datat set is 77k+ long. It was split into training and testing sets. The training set was used to build an initial logistic regression model using the logisticRegression module from scikitlearn. Testing dataset was then applied. 
 
 ## Results
 
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+Logistic Regression Model:
+•	Precision Score: 92% --> This means 92% of predicted positives were correct
+•	Recall Score: 95% --> this means that the model was 95% precise in measuring true positive values our of all positive predictions made.
 
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+I recommend using this model to predict, as it has over 95% in predicting the outcome of the repayment of loans. The accuracy range can be modeled by other lenders in ensure they identify the borrowers that will allow them remain/profit in this business.
 
-If you do not recommend any of the models, please justify your reasoning.
 
